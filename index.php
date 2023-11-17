@@ -33,6 +33,7 @@
     <link href="public/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="public/lib/Ionicons/css/ionicons.css" rel="stylesheet">
     <link rel="stylesheet" href="public/css/bracket.css">
+    <link rel="icon" type="image/png" href="docs/profile_dpnna.png">
     <title>MIMP::Acceso</title>
   </head>
 
