@@ -8,8 +8,9 @@ image.src = '../../public/certificado.png';
 
 $(document).ready(function(){
     var curd_id = getUrlParameter('curd_id');
-
+    
     $.post("../../controller/usuario.php?op=mostrar_curso_detalle", { curd_id : curd_id }, function (data) {
+    
         data = JSON.parse(data);
         $('#cur_descrip').html(data.cur_descrip);
 
